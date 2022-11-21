@@ -1,0 +1,46 @@
+.questionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+  border: solid;
+  margin: 2em 0;
+}
+
+#q1Table,
+.q1Th,
+.q1Tr {
+  border: 1px solid;
+}
+
+.q1Th,
+.q1Tr {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#q1Table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+tbody :nth-child(1) {
+  text-decoration-thickness: 5px;
+}
+
+#searchInput {
+  border: 1px solid gray;
+  border-radius: 25px;
+  width: 50%;
+  background-image: url("searchicon.png");
+}
+
+#uList,
+#oList {
+  border: 2px solid black;
+}
+
+.ListPara,
+.questionHeading {
+  text-decoration-line: underline;
+}
