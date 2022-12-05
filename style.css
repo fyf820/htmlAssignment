@@ -9,12 +9,14 @@
 
 #q1Table,
 .q1Th,
-.q1Tr {
+.q1Tr,
+.q1Td {
   border: 1px solid;
 }
 
 .q1Th,
-.q1Tr {
+.q1Tr,
+.q1Td {
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -24,20 +26,16 @@
   border-collapse: collapse;
 }
 
-tbody :nth-child(1) {
-  text-decoration-thickness: 5px;
-}
-
 #searchInput {
   border: 1px solid gray;
   border-radius: 25px;
   width: 50%;
-  background-image: url("searchicon.png");
 }
 
 #uList,
 #oList {
   border: 2px solid black;
+  padding: 2em;
 }
 
 .ListPara,
